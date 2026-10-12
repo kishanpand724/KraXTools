@@ -2,6 +2,8 @@
 
 Free, private file tools that run entirely in your browser. Compress and convert images, compress/merge/split PDFs, and create or extract ZIP files. No account, no backend, no uploads.
 
+**Live app:** [kraxtools.vercel.app](https://kraxtools.vercel.app/)
+
 By **KraX Labs** — [YouTube channel](https://youtube.com/@kraxlabs724?si=P0RSWuxukLbhqgAY)
 
 ---
@@ -39,6 +41,10 @@ krax-tools/
 
 ## How to run
 
+Just want to use it? Open the live app: https://kraxtools.vercel.app/
+
+To run it locally:
+
 1. Unzip the project.
 2. Open `index.html` in any modern browser (Chrome, Edge, Firefox, Safari).
 3. Make sure you are online, because the libraries load from a CDN.
@@ -50,7 +56,7 @@ No install or build step is needed.
 It is a static site, so any static host works:
 
 - **GitHub Pages**: push the folder to a repo, then Settings → Pages → select the branch
-- **Netlify / Vercel / Cloudflare Pages**: drag and drop the folder
+- **Vercel / Netlify / Cloudflare Pages**: drag and drop the folder (the live app is hosted on Vercel)
 
 ## Libraries used (loaded from cdnjs)
 
